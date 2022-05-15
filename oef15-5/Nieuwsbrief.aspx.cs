@@ -49,7 +49,9 @@ namespace oef15_5
             {
                 formsinschrijving.Visible = false;
                 frmbedankt.Visible = true;
-
+                naam.Text = inNaam.Value;
+                Vnaam.Text = inVnaam.Value;
+                email.Text = inEmail.Value;
             }
         }
     }
