@@ -33,7 +33,7 @@
                     <legend>Contact gegevens</legend>
                     <label>Email Adres: <input type="email" name="email" required runat="server" id="inEmail"></label>
                 </fieldset>
-        <asp:Button ID="btnsubmit" runat="server" Text="submit" type ="submit" OnClick="btnsubmit_Click"/>
+        <asp:Button ID="btnsubmit" runat="server" Text="VERSTUUR" type ="submit" OnClick="btnsubmit_Click"/>
     </form>
     
     <form visible="False" id="frmbedankt" runat="server">
