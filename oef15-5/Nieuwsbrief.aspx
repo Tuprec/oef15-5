@@ -26,7 +26,7 @@
     <form visible="False" id="formsinschrijving" runat="server">
         <fieldset id="Naam">
                     <legend>Name</legend>            
-                    <label>Voornaam: <input type="text" name="firstname" required runat="server" id="inVnaam"></label>            
+                    <label>Voornaam: <input type="text" name="firstname" required runat="server" id="inVnaam"></label>
                     <label>achternaam: <input type="text" name="lastname" required runat="server" id="inNaam"></label>
                 </fieldset>
                 <fieldset id="Contact_gegevens">
